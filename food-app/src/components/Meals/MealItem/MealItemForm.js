@@ -39,7 +39,7 @@ export const MealItemForm = (props) => {
         }}
       />
       <button>Add +</button>
-      {!amountIsValid && <p>Enter a valid amount!</p>}
+      {!amountIsValid && <p>Entre com valor valido</p>}
     </form>
   )
 };
